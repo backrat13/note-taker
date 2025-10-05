@@ -37,8 +37,8 @@ class NoteTaker:
         # Setup UI
         self.setup_styles()
         self.create_menu_bar()
-        self.create_sidebar()
         self.create_main_area()
+        self.create_sidebar()
         self.create_toolbar()
 
         # Load initial state
